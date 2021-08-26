@@ -1,0 +1,34 @@
+@mixin h2_black {
+    font-family: $font-Regular;
+    color:  $color-black;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+
+@mixin h2_orange {
+    font-family: $font-Regular;
+    color: $color-orange;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+@mixin subtitle_gray {
+    font-family: $font-Regular;
+    color: $color-grey-dark;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+@mixin title_black {
+    font-family: $font-Bold;
+    color: $color-black;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
