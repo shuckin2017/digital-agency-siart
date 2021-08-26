@@ -1,0 +1,66 @@
+
+@mixin h2_black {
+    font-family: $fontfamily;
+    color:  $color-black;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    
+}
+
+@mixin h2_orange {
+    font-family: $fontfamily;
+    color: $color-orange;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+@mixin subtitle_gray {
+    font-family: $fontfamily;
+    color: $color-grey-dark;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+@mixin catalog_title_black {
+    font-family: $fontfamily;
+    color: $color-black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+@mixin catalog_description_black {
+    font-family: $fontfamily;
+    color: $color-black;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    
+    
+}
+
+@mixin services_title_black {
+    font-family: $fontfamily;
+    color: $color-black;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@mixin services_description_black {
+    font-family: $fontfamily;
+    color: $color-black;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    
+}
+

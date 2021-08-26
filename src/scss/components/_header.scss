@@ -1,0 +1,30 @@
+
+
+.header {
+    
+}
+
+.header__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-grey-light;
+}
+
+.header__heading {
+    max-width: 545px;
+}
+
+.header__title {
+    @include h2_black;
+    
+    & span {
+        @include h2_orange;
+    }
+}
+.header__subtitle {
+    @include subtitle_gray;
+    max-width: 410px;
+    margin-top: 16px;
+}
+
